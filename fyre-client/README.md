@@ -1,9 +1,9 @@
 # fyre-client
-### _Your Name <your.name@example.com>_
+### Jack Lucas <silverbeard@protonmail.com>_
 
-This is a project to do ... something.
+This is the client for fyre.  It uses EQL5 to provide an easy cross platform GUI.
 
 ## License
 
-Specify license here
+MIT
 
