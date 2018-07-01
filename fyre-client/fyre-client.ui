@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1498</width>
+    <height>869</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fyre Client 0.0.1</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="sparktext">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sparkbutton">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fyrepath">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>9</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>//:</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="fyrepit">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>51</y>
+      <width>911</width>
+      <height>751</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="emberstackedW">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>50</y>
+      <width>541</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="emberframe">
+     <widget class="QTextEdit" name="emberdesc">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>321</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="emberprice">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="emberqty">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="emberupdate">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>10</y>
+        <width>108</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Update</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="emberremove">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>50</y>
+        <width>108</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Remove</string>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="emberview">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>521</width>
+        <height>391</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="emberrotate">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>500</y>
+        <width>108</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rotate</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="embermultipic">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>500</y>
+        <width>108</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Multi-Pic</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="emberframe2"/>
+   </widget>
+   <widget class="QLabel" name="fyrelabel">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>18</y>
+      <width>521</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fyre Context</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1498</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFyre_Client_0_0_1">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <addaction name="menuFyre_Client_0_0_1"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
