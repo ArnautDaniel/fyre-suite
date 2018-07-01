@@ -1,9 +1,9 @@
 # fyre-server
-### _Your Name <your.name@example.com>_
+### Jack Lucas <silverbeard@protonmail.com>
 
-This is a project to do ... something.
+Fyre-Server base.  
 
 ## License
 
-Specify license here
+MIT
 
